@@ -102,6 +102,21 @@ section {
     display: block;
 }
 
+@font-face {
+    font-family: 'Terminal Grotesque Open';
+    src: url(/css/fonts/terminal-grot/TerminalGrotesque-Open.woff2) format('woff2'),
+        url(/css/fonts/terminal-grot/TerminalGrotesque-Open.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: black;
+    color: white;
+}
+
+ul li {
+    font-family: 'Terminal Grotesque Open';
+    font-size: 5vw;
+    padding-bottom: 20px;
 }
