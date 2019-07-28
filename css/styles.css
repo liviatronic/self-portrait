@@ -340,3 +340,91 @@ ul li:hover {
 .motion:hover::after {
     content: "Ezequiel Pini";
 }
+
+.neural-net:hover~.bg {
+    background-image: url("../images/neural-net-yunying-huang.gif");
+}
+
+.neural-net:hover::after {
+    content: "Yunying Huang";
+}
+
+.new-aesthetic:hover~.bg {
+    background-image: url("../images/new-aesthetic.png");
+}
+
+.new-media:hover~.bg {
+    background-image: url("../images/new-media-stephanie-syjuco.jpg");
+}
+
+.new-media:hover::after {
+    content: "Stephanie Syjuco";
+}
+
+.object:hover~.bg {
+    background-image: url("../images/object.jpg");
+}
+
+.participation:hover~.bg {
+    background-image: url("../images/participation-studio-moniker.gif");
+}
+
+.participation:hover::after {
+    content: "Moniker";
+}
+
+.photographers:hover~.bg {
+    background-image: url("../images/photographers-maïmouna-guerresi.jpg");
+}
+
+.photographers:hover::after {
+    content: "Maïmouna Guerresi";
+}
+
+.pizza:hover~.bg {
+    background-image: url("../images/pizza-beyonce.jpg");
+}
+
+.pizza:hover::after {
+    content: "Beyoncé in pizza outfit";
+}
+
+.platform:hover~.bg {
+    background-image: url("../images/platform-ian-bogost.png");
+}
+
+.playground:hover~.bg {
+    background-image: url("../images/playground.jpg");
+}
+
+.poster:hover~.bg {
+    background-image: url("../images/poster-monthly-halloween.png");
+}
+
+.poster:hover::after {
+    content: "Monthly Halloween magazine";
+}
+
+.press:hover~.bg {
+    background-image: url("../images/press-serving-library.png");
+}
+
+.press:hover::after {
+    content: "Serving Library, Dexter Sinister";
+}
+
+.procedural:hover~.bg {
+    background-image: url("../images/procedural-vera-molnar.jpg");
+}
+
+.procedural:hover::after {
+    content: "Vera Molnar";
+}
+
+.public-domain:hover~.bg {
+    background-image: url("../images/public-domain.jpeg");
+}
+
+.rave:hover~.bg {
+    background-image: url("../images/rave-eternity.jpg");
+}
