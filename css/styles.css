@@ -180,3 +180,163 @@ ul li:hover {
 .adversarial:hover::after {
     content: "CV Dazzle";
 }
+
+.altpub:hover~.bg {
+    background-image: url("../images/altpub-fast-forward.jpg");
+}
+
+.altpub:hover::after {
+    content: "Fast Forward cassette magazine";
+}
+
+.architecture:hover~.bg {
+    background-image: url("../images/architecture-magnasanti.jpg");
+}
+
+.architecture:hover::after {
+    content: "Magnasanti: The largest and most terrifying SimCity";
+}
+
+.archives:hover~.bg {
+    background-image: url("../images/archvies-ed-ruscha.jpg");
+}
+
+.archives:hover::after {
+    content: "Ed Ruscha";
+}
+
+.art:hover~.bg {
+    background-image: url("../images/art-hannah-hoch.png");
+}
+
+.art:hover::after {
+    content: "Hannah Höch";
+}
+
+.art-direction:hover~.bg {
+    background-image: url("../images/art-direction-kelsey-mcguire-michelle-mclellan.jpg");
+}
+
+.art-direction:hover::after {
+    content: "Michelle Maguire & Kelsey McClellan";
+}
+
+.browser-art:hover~.bg {
+    background-image: url("../images/browser-art-abstract-browsing.png");
+}
+
+.browser-art:hover::after {
+    content: "Abstract Browsing, Rafaël Rozendaal";
+}
+
+.color:hover~.bg {
+    background-image: url("../images/color.gif");
+}
+
+.diy:hover~.bg {
+    background-image: url("../images/diy-olia-lialina.png");
+}
+
+.diy:hover::after {
+    content: "One Terabyte of Kilobyte Age, Olia Lialina";
+}
+
+.diagram:hover~.bg {
+    background-image: url("../images/diagram-web-dubois.jpg");
+}
+
+.diagram:hover::after {
+    content: "W. E. B. Du Bois";
+}
+
+.fashion:hover~.bg {
+    background-image: url("../images/fashion-comme-des-garcons.jpeg");
+}
+
+.fashion:hover::after {
+    content: "COMME des GARÇONS";
+}
+
+.feminist-design:hover~.bg {
+    background-image: url("../images/feminist-sheila-levrant-de-bretteville.jpg");
+}
+
+.feminist-design:hover::after {
+    content: "Sheila Levrant de Bretteville";
+}
+
+.format:hover~.bg {
+    background-image: url("../images/format.gif");
+}
+
+.generic:hover~.bg {
+    background-image: url("../images/generic.jpg");
+}
+
+.grid:hover~.bg {
+    background-image: url("../images/grid-ines-cox.jpg");
+}
+
+.grid:hover::after {
+    content: "Ines Cox";
+}
+
+.identity:hover~.bg {
+    background-image: url("../images/identity-flux-linked-by-air.gif");
+}
+
+.identity:hover::after {
+    content: "Linked By Air";
+}
+
+.illustration:hover~.bg {
+    background-image: url("../images/illustration-aurelia-durand.gif");
+}
+
+.illustration:hover::after {
+    content: "Aurélia Durand";
+}
+
+.installation:hover~.bg {
+    background-image: url("../images/installation.jpg");
+}
+
+.installation:hover::after {
+    content: "Humans of Late Capitalism";
+}
+
+.interaction:hover~.bg {
+    background-image: url("../images/interaction.gif");
+}
+
+.interface-tactile:hover~.bg {
+    background-image: url("../images/interface-tactile.gif");
+}
+
+.mall:hover~.bg {
+    background-image: url("../images/mall-brian-ulrich.jpg");
+}
+
+.mall:hover::after {
+    content: "Brian Ulrich";
+}
+
+.material:hover~.bg {
+    background-image: url("../images/material.jpg");
+}
+
+.media:hover~.bg {
+    background-image: url("../images/media-radical-software.png");
+}
+
+.media:hover::after {
+    content: "Radical Software";
+}
+
+.motion:hover~.bg {
+    background-image: url("../images/motion-ezequiel-pini.gif");
+}
+
+.motion:hover::after {
+    content: "Ezequiel Pini";
+}
