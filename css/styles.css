@@ -104,8 +104,8 @@ section {
 
 @font-face {
     font-family: 'Terminal Grotesque Open';
-    src: url(/css/fonts/terminal-grot/TerminalGrotesque-Open.woff2) format('woff2'),
-        url(/css/fonts/terminal-grot/TerminalGrotesque-Open.woff) format('woff');
+    src: url(./fonts/terminal-grot/TerminalGrotesque-Open.woff2) format('woff2'),
+        url(./fonts/terminal-grot/TerminalGrotesque-Open.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -119,8 +119,11 @@ ul li {
     font-family: 'Terminal Grotesque Open';
     font-size: 9vw;
     list-style: none;
-    /* width: 100%; */
     margin: 2vw 2vw 0 2vw;
+}
+
+ul li:hover {
+    color: yellow;
 }
 
 .bg {
@@ -140,31 +143,40 @@ ul li {
 }
 
 ::after {
-    font-size: 4vw;
-    float: right;
-    margin: 1vw 0;
+    font-size: 2.8vw;
+    position: fixed;
+    top: 2vw;
+    right: 2vw;
 }
 
 .threed:hover~.bg {
-    background-image: url("/images/3d-theo\ trian.png");
+    background-image: url("../images/3d-theo-trian.png");
 }
 
 .threed:hover::after {
-    content: "    Theo Trian";
+    content: "Theo Trian";
 }
 
 .ar:hover~.bg {
-    background-image: url("/images/ar-project\ soli.gif");
+    background-image: url("../images/ar-project-soli.gif");
 }
 
 .ascii:hover~.bg {
-    background-image: url("/images/ascii-hippie.jpg");
+    background-image: url("../images/ascii-hippie.jpg");
 }
 
 .activist:hover~.bg {
-    background-image: url("/images/activist-mimi\ onuoha.jpg");
+    background-image: url("../images/activist-white-collar-crime.png");
 }
 
 .activist:hover::after {
-    content: "    Mimi Onuoha";
+    content: "White Collar Crime Risk Zones";
+}
+
+.adversarial:hover~.bg {
+    background-image: url("../images/adversarial-cv-dazzle.png");
+}
+
+.adversarial:hover::after {
+    content: "CV Dazzle";
 }
