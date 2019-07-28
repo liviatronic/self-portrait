@@ -111,12 +111,60 @@ section {
 }
 
 body {
-    background-color: black;
     color: white;
+    background-color: pink;
 }
 
 ul li {
     font-family: 'Terminal Grotesque Open';
-    font-size: 5vw;
-    padding-bottom: 20px;
+    font-size: 9vw;
+    list-style: none;
+    /* width: 100%; */
+    margin: 2vw 2vw 0 2vw;
+}
+
+.bg {
+    position: fixed;
+    z-index: -1;
+    width: 105%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: -2vw;
+    pointer-events: none;
+    background-color: pink;
+    /* background-repeat: no-repeat; */
+    background-position: top right;
+    /* background-size: contain; */
+    background-blend-mode: multiply;
+}
+
+::after {
+    font-size: 4vw;
+    float: right;
+    margin: 1vw 0;
+}
+
+.threed:hover~.bg {
+    background-image: url("/images/3d-theo\ trian.png");
+}
+
+.threed:hover::after {
+    content: "    Theo Trian";
+}
+
+.ar:hover~.bg {
+    background-image: url("/images/ar-project\ soli.gif");
+}
+
+.ascii:hover~.bg {
+    background-image: url("/images/ascii-hippie.jpg");
+}
+
+.activist:hover~.bg {
+    background-image: url("/images/activist-mimi\ onuoha.jpg");
+}
+
+.activist:hover::after {
+    content: "    Mimi Onuoha";
 }
