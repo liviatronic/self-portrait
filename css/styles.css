@@ -374,7 +374,7 @@ ul li:hover {
 }
 
 .photographers:hover~.bg {
-    background-image: url("../images/photographers-maïmouna-guerresi.jpg");
+    background-image: url("../images/photographers-maimouna-guerresi.jpg");
 }
 
 .photographers:hover::after {
