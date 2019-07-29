@@ -428,3 +428,147 @@ ul li:hover {
 .rave:hover~.bg {
     background-image: url("../images/rave-eternity.jpg");
 }
+
+.resources:hover~.bg {
+    background-image: url("../images/resources-emoji-builder.jpg");
+}
+
+.resources:hover::after {
+    content: "Emoji builder";
+}
+
+.resources-3d:hover~.bg {
+    background-image: url("../images/resources-3d.jpg");
+}
+
+.resources-phys-comp:hover~.bg {
+    background-image: url("../images/resources-phys-comp-golan-levin.png");
+}
+
+.resources-phys-comp:hover::after {
+    content: "Golan Levin";
+}
+
+.resources-web-dev:hover~.bg {
+    background-image: url("../images/resources-web-dev-simpsons.gif");
+}
+
+.resources-web-dev:hover::after {
+    content: "The Simpsons in CSS";
+}
+
+.resources-js:hover~.bg {
+    background-image: url("../images/resources-js-clmtrackr.gif");
+}
+
+.resources-js:hover::after {
+    content: "clmtrackr.js";
+}
+
+.riso:hover~.bg {
+    background-image: url("../images/riso-braulio-amado.jpeg");
+}
+
+.riso:hover::after {
+    content: "Bráulio Amado";
+}
+
+.simulacra:hover~.bg {
+    background-image: url("../images/simulacra-tower.jpg");
+}
+
+.simulacra:hover::after {
+    content: "Cell tower disguised as palm tree";
+}
+
+.speculative:hover~.bg {
+    background-image: url("../images/speculative-haus-rucker-co.jpg");
+}
+
+.speculative:hover::after {
+    content: "Haus Rucker Co";
+}
+
+.superhuman:hover~.bg {
+    background-image: url("../images/superhuman-transhuman.jpg");
+}
+
+.superhuman:hover::after {
+    content: "David Vintiner & Gem Fletcher";
+}
+
+.symbol:hover~.bg {
+    background-image: url("../images/symbol.gif");
+}
+
+.type-in-use:hover~.bg {
+    background-image: url("../images/type-in-use-bureau-klein.jpeg");
+}
+
+.type-in-use:hover::after {
+    content: "Bureau Klein";
+}
+
+.type-kinetic:hover~.bg {
+    background-image: url("../images/type-kinetic-dia-studio.gif");
+}
+
+.type-kinetic:hover::after {
+    content: "Dia Studio";
+}
+
+.type-lettering:hover~.bg {
+    background-image: url("../images/type-lettering-takenobu-igarashi.jpg");
+}
+
+.type-lettering:hover::after {
+    content: "Takenobu Igarashi";
+}
+
+.type-typeface:hover~.bg {
+    background-image: url("../images/type-typeface-metis-foundry.jpg");
+}
+
+.type-typeface:hover::after {
+    content: "Metis Foundry";
+}
+
+.uncanny:hover~.bg {
+    background-image: url("../images/uncanny.gif");
+}
+
+.land-use:hover~.bg {
+    background-image: url("../images/land-use-paraic-mcgloughlin.gif");
+}
+
+.land-use:hover::after {
+    content: "Páraic McGloughlin";
+}
+
+.vr:hover~.bg {
+    background-image: url("../images/vr-gray-crawford.gif");
+}
+
+.vr:hover::after {
+    content: "Gray Crawford";
+}
+
+.variable-fonts:hover~.bg {
+    background-image: url("../images/variable-font.gif");
+}
+
+.web-editorial:hover~.bg {
+    background-image: url("../images/web-editorial-nytimes.jpg");
+}
+
+.web-editorial:hover::after {
+    content: "New York Times interactive feature";
+}
+
+.web-publication:hover~.bg {
+    background-image: url("../images/web-publication-wrong-wrong.gif");
+}
+
+.web-publication:hover::after {
+    content: "Wrong Wrong magazine";
+}
